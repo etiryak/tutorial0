@@ -2,7 +2,6 @@
 <input xmlns="urn:opendaylight:flow:service">
    <barrier>false</barrier>
    <node xmlns:inv="urn:opendaylight:inventory">/inv:nodes/inv:node[inv:id="openflow:<node-id>"]</node>
-
    <cookie>55</cookie>
    <flags>SEND_FLOW_REM</flags>
    <hard-timeout>0</hard-timeout>
