@@ -31,7 +31,9 @@
       <disk_image xmlns="http://www.geni.net/resources/rspec/3" name="urn:publicid:IDN+emulab.net+image+emulab-ops:UBUNTU16-64-STD"/>
     </sliver_type>
     <services xmlns="http://www.geni.net/resources/rspec/3"/>
-    <interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-3"/>
+    <interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-3">
+      <ip xmlns="http://www.geni.net/resources/rspec/3" address="10.10.1.22" type="ipv4"/>
+    </interface>
   </node>
   <link xmlns="http://www.geni.net/resources/rspec/3" client_id="link-0">
     <interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-0"/>
@@ -42,7 +44,6 @@
   <link xmlns="http://www.geni.net/resources/rspec/3" client_id="link-1">
     <interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-2"/>
     <interface_ref xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-3"/>
-    <property xmlns="http://www.geni.net/resources/rspec/3" source_id="interface-3" dest_id="interface-2" capacity="10.10.1.22"/>
     <site xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" id="undefined"/>
     <link_attribute xmlns="http://www.protogeni.net/resources/rspec/ext/emulab/1" key="nomac_learning" value="yep"/>
   </link>
