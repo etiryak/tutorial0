@@ -32,7 +32,7 @@
     </sliver_type>
     <services xmlns="http://www.geni.net/resources/rspec/3"/>
     <interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-3">
-      <ip xmlns="http://www.geni.net/resources/rspec/3" address="10.10.1.22" type="ipv4"/>
+      <ip xmlns="http://www.geni.net/resources/rspec/3" address="10.10.1.22" type="ipv4" netmask="255.255.255.0"/>
     </interface>
   </node>
   <link xmlns="http://www.geni.net/resources/rspec/3" client_id="link-0">
