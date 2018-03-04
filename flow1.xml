@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<input xmlns="urn:opendaylight:flow:service">
+   <barrier>false</barrier>
+   <node xmlns:inv="urn:opendaylight:inventory">/inv:nodes/inv:node[inv:id="openflow:252917010444617"]</node>
+   <cookie>0x2b00000000000000</cookie>
+   <hard-timeout>0</hard-timeout>
+   <idle-timeout>0</idle-timeout>
+   <installHw>false</installHw>
+   <match>
+    <ethernet-match>
+     <ethernet-type>
+       <type>0x88cc</type>
+     </ethernet-type>
+    </ethernet-match>
+   </match>
+   <instructions>
+    <instruction>
+     <order>0</order>
+     <apply-actions>
+       <action>
+         <output-action>
+           <output-node-connector>CONTROLLER</output-node-connector>
+		        <max-length>65535</max-length>
+         </output-action>
+         <order>0</order>
+       </action>
+     </apply-actions>
+    </instruction>
+   </instructions>
+   <priority>0</priority>
+   <strict>false</strict>
+   <table_id>0</table_id>
+</input>
