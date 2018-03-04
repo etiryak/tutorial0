@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <input xmlns="urn:opendaylight:flow:service">
    <barrier>false</barrier>
-   <node xmlns:inv="urn:opendaylight:inventory">/inv:nodes/inv:node[inv:id="openflow:252917010444617"]</node>
+   <node xmlns:inv="urn:opendaylight:inventory">/inv:nodes/inv:node[inv:id="<node-id>"]</node>
    <cookie>0x2b00000000000000</cookie>
    <hard-timeout>0</hard-timeout>
    <idle-timeout>0</idle-timeout>
